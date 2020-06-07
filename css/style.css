@@ -175,7 +175,7 @@
 .mt-20 {margin-top: 20px;}
 .mt-150 {margin-top: 150px;}
 .pt-35 {padding-top: 35px;}
-.pt-130 {padding-top: 130px;}
+.pt-130 {padding-top: 0px;}
 /*-------------------- Button ---------------*/
 /* Wayra */
 body .button--wayra {
@@ -229,14 +229,14 @@ body .button--wayra:hover::before {
   padding-right: 45px;
   margin-bottom: 40px;
 }
-.theme-title-two:before {
+/* .theme-title-two:before {
   content: '';
   width: 35px;
   height: 2px;
   position: absolute;
   right:0;
   bottom: 9px;
-}
+} */
 .inner-title {font-size: 28px;padding-bottom: 10px;}
 /*----------------------- Aside Navigation Menu --------------------- */
 #aside-nav-wrapper {
